@@ -1,0 +1,60 @@
+html, body {
+	font: normal 15px Tahoma;
+	color: #333;
+}
+
+a {
+	outline: none;
+}
+
+.searchResult {
+	width : 815px;
+	height: 375px;
+	float : left;	
+}
+	
+#searchShow {
+	font-size : 20px;
+}
+
+.flickrImg {
+	opacity : 0.67;
+	padding: 1px 1px;
+	border: 1px solid #CCC;
+}
+
+.flickrImg:HOVER, .flickrImgSelected {
+	opacity : 1;
+	border: 1px solid black;
+}
+
+.flickerBtnNext:HOVER, .flickerBtnPrev:HOVER, .flickerMoveFirst:HOVER, .flickerMoveLast:HOVER, .movePageTo:HOVER {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.flickrThumbnail {
+	width: 315px; height: 390px; float: left;
+}
+
+.flickrIndicator {
+	background: transparent url('ajax-loader.gif') no-repeat center;
+}
+
+.flickrDetail {
+	width: 400px; height: 390px; float: left; 
+}
+
+.flickerDetailImage {
+	max-height: 390px;
+}
+	
+@media handheld {
+	.flickrDetail {
+		width: 400px; height: 390px; float: bottom;
+	}
+	
+	.flickerDetailImage {
+		max-width: 400px;
+	}
+}
