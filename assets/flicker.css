@@ -49,7 +49,7 @@ a {
 	max-height: 390px;
 }
 	
-@media handheld {
+@media handhld {
 	.flickrDetail {
 		width: 400px; height: 390px; float: bottom;
 	}
